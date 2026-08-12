@@ -7,8 +7,7 @@ cask "tester" do
   version "1.0.1"
   sha256 "02441bfc7c8dc2cbac29878e288f8ba007eda81d5e208c87100a39664787e941"
 
-  url "https://github.com/alcyone-systems/tester-releases/releases/download/v#{version}/Tester-#{version}-macos-arm64.pkg",
-      verified: "github.com/alcyone-systems/tester-releases/"
+  url "https://github.com/alcyone-systems/tester-releases/releases/download/v#{version}/Tester-#{version}-macos-arm64.pkg"
   name "Tester"
   desc "On-prem test automation appliance for web, API, Android and iOS"
   homepage "https://alcyone-systems.com/product/"

@@ -13,7 +13,7 @@ cask "tester" do
   desc "On-prem test automation appliance for web, API, Android and iOS"
   homepage "https://alcyone-systems.com/product/"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   pkg "Tester-#{version}-macos-arm64.pkg"

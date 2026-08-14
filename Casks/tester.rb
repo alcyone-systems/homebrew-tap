@@ -5,7 +5,7 @@
 # (see `tester update check`). The two can never fight over the same files.
 cask "tester" do
   version "1.0.1"
-  sha256 "a6bff21c49dec78d0361c92a8bf1d6b32085fda822d0e8800fda532b55b7e38b"
+  sha256 "7d715571697b0235d0020b1e0fdd68cdab386894035513ad317be2033a5efe37"
 
   url "https://github.com/alcyone-systems/tester-releases/releases/download/v#{version}/Tester-#{version}-macos-arm64.pkg"
   name "Tester"
